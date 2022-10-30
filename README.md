@@ -1,36 +1,29 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program is designed to interact with a cloud database and give approved users the ability to create, modify, delete and view a table in a database. 
 
-{Provide a description the software that you wrote and how it integrates with a Cloud Database.  Describe how to use your program.}
+This program was made to give easy access to store details of my run to the cloud.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/5umuuvAOy0k)
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
+The cloud database I am using is Firestore which is an extension of Firebase which allows for using Firebase's user auth to require an account to use it.
 
-{Describe the structure of the database that you created.}
+The database is using a dictionary structure with all the documents having values for the different elements of time, distance, and name.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used visual studio code and FireBase to develop this database software.
 
-{Describe the programming language that you used and any libraries.}
+The programming language used to create this software was python and the firebase-admin and pyrebase libraries.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Free Code Camp](https://www.freecodecamp.org/news/how-to-get-started-with-firebase-using-python/)
+* [Firestone](https://firebase.google.com/docs/firestore)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Improve the display of the table to remove the dictionary formatting.
+* Improve the user auth system to allow for them to make entries just for them and only have access to see those entries.
